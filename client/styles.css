@@ -1,0 +1,85 @@
+
+body {
+    background-color: lightskyblue
+}
+
+
+.chirp .deletebtn, .chirp .button-block {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: 1em;
+}
+
+
+#chirpbox{
+    background-color: white;
+    color: gray;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    height: 4em;
+    margin: 0 auto;
+    border-bottom: 1em solid blue;
+    line-height: 4em;
+    vertical-align: middle;
+}
+
+
+#chirpfield {
+    background-color:lightgrey;
+    color: purple;
+    text-align: center;
+    justify-content: center;
+}
+
+#chirplist{
+    background-color:white;
+    color: grey;   
+    border: 1px solid purple;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+
+}
+
+#chirpbtn {
+    background-color: purple;
+    color: darkgrey;
+    border-radius: .25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.deletebtn {
+
+}
+
+.chirp {
+    border-bottom: 1px solid black; 
+    padding: 2em 1em;
+    position: relative;
+}
+
+.chip p {
+    margin-top: 0;
+}
+
+.chirp h5 {
+    margin-bottom: 0;
+} 
+
+.fancy-button {
+    background-color: transparent;
+    border: 1px sold darkblue;
+    color: darkblue;
+    border-radius: 0.5em;
+}
+
+.fancy-button.red {
+    border-color: red;
+    color: red;
+}
